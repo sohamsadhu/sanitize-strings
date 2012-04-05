@@ -1,0 +1,44 @@
+This is a small C program to take in credit card data in following format.
+
+ * Credit Card Number:	       XXXX-XXXX-XXXX-XXXX
+ * Expiration month and year:  Month name followed by year
+ * Security or CVV code:       XXX
+ * Zip code:                   XXXXX
+ * Purchase amount:            XXX,XXX.XX
+ * Email address:              Standard name form@ XXX.XXX
+ 
+The only catch is that program should be resistant to a malicious user.
+
+A example run of the program is given.
+
+Please enter your first name on the card.
+Please note if your name may contain spaces, but cannot exceed 25 characters including spaces.
+Please use only English characters, numbers or special characters cannot be accepted by the system.
+adfdsa asdfasd adsfasdf
+
+Please enter your last name on the card.
+Please note if your name may contain spaces, but cannot exceed 30 characters including spaces.
+Please use only English characters, numbers or special characters cannot be accepted by the system.
+afdsasdf adsf asd fa 
+
+Please enter the 16 digit credit card number, without any spaces in between as one single 16 digit number.
+Like XXXXXXXXXXXXXXXX (where each X represents a single digit).
+243235325234524352435423543
+Please enter the month of expiry in digits in two digit format(XX).
+For example 01 for January and 12 for December.
+1234
+Please enter the year of expiry in four digit format (XXXX).
+For example if your card expires in year 2013, please enter complete year 2013.
+354523534552
+Please enter the three digit security code at the back of the card.
+Please use numbers only and no spaces between the three digits like this (XXX). 
+4536346436
+Please enter your five digit zip code in following format.(XXXXX) 
+645364564346
+Please enter the the purchase amount.
+Please input only digits without any spaces in between and do include the cents value as continously in digits.
+For example $10.01 should be entered as 1001.
+25453646546546354765765
+Please enter your email address.
+Please note that if your email address is more than 30 characters then it may be rejected or truncated.
+534353@53345.55436
